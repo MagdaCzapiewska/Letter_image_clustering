@@ -16,11 +16,11 @@ The pipeline begins with resizing images so each of them is of the same size. Th
 
 In both .ipynb and .py files:
 
-INPUT_FILE: Contains paths to the input letter images (one path per line).
+INPUT_FILE: Path to the input file that contains paths to the input letter images (one path per line).
 
-OUTPUT_TXT: Stores cluster assignments, listing the names of images grouped together on each line.
+OUTPUT_TXT: Path to the output file that stores cluster assignments, listing the names of images grouped together on each line.
 
-OUTPUT_HTML: Provides a visual representation of the generated clusters in HTML format.
+OUTPUT_HTML: Path to the output file that provides a visual representation of the generated clusters in HTML format.
 
 In each section I describe in detail the algorithms used. Custom options can be changed in the `Custom options adjustment` section (paths to input and output files can be changed here if they differ from the assignment description).
 
