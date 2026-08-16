@@ -15,8 +15,11 @@ It is divided into 6 sections:
 The pipeline begins with resizing images so each of them is of the same size. Then features are extracted using DAISY method (Histogram of oriented gradients method was also considered, but not chosen). Feature vectors are clustered using Agglomerative clustering with linkage method `ward` and `euclidean` distance metric.
 
 In both .ipynb and .py files:
+
 INPUT_FILE: Contains paths to the input letter images (one path per line).
+
 OUTPUT_TXT: Stores cluster assignments, listing the names of images grouped together on each line.
+
 OUTPUT_HTML: Provides a visual representation of the generated clusters in HTML format.
 
 In each section I describe in detail the algorithms used. Custom options can be changed in the `Custom options adjustment` section (paths to input and output files can be changed here if they differ from the assignment description).
